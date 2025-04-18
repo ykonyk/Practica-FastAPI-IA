@@ -1,0 +1,1 @@
+# Practica-FastAPI-IA
