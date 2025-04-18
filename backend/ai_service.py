@@ -22,7 +22,7 @@ def generate_text(prompt: str, content_type: str) -> str:
         "Content-Type": "application/json",
     }
 
-    system_prompt = f"Genera el siguiente tipo de contenido: {content_type}."
+    system_prompt = f"Eres un asistente creativo. Genera el siguiente tipo de contenido: {content_type}."
     user_prompt = prompt
     payload = {
         "model": "gpt-3.5-turbo",
